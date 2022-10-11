@@ -72,10 +72,10 @@ class Login extends React.Component {
                 this.setState({ user:'',password:'',})
                 localStorage.setItem('username', this.state.user);
                 localStorage.setItem('password', this.state.password);
-                // alert('Bạn đã đăng nhập thành công')
+                alert('Successful login!')
                 this.props.handleCloseModal()
             } else {
-                alert('Bạn đã đăng nhập thất bại')
+                alert('Failed login!')
                 this.setState({user:'',password:'',})
             }
         }
@@ -100,7 +100,7 @@ class Login extends React.Component {
                                 <input type="password" name="password" placeholder="Password" value={this.state.password} onChange={this.handleUserInput} />
                             </div>
                             <div className="question">
-                                Quên mật khẩu?
+                                Forgot your password?
                             </div>
                             <button onClick={this.handleLogin}>Login</button>
                         </form>
