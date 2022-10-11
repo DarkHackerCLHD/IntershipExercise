@@ -1,0 +1,665 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font: optional;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    position: relative;
+    width: 1350px;
+    height: 75px;
+    background-color: black;
+    position: fixed;
+}
+
+.anhlogo {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    float: left;
+    align-items: center;
+}
+
+nav {
+    float: right;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a {
+    padding: 20px;
+    text-decoration: none;
+}
+
+.main1 {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.header {
+    position: fixed;
+}
+
+.main1 .text a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.main2 .column .column1 {
+    height: 500px;
+    padding: 10px;
+    float: left;
+}
+
+.main2 .column .column1 a:hover {
+    color: blue;
+}
+
+.main2 .column .column1 {
+    text-align: center;
+}
+
+.main2 .column .column1 p {
+    padding: 25px;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    justify-content: space-between;
+    width: 400px;
+    color: gray;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.main2 .column .column2 {
+    height: 500px;
+    padding: 10px;
+    float: left;
+}
+
+.main2 .column .column2 {
+    text-align: center;
+}
+
+.main2 .column .column2 p {
+    padding: 25px;
+    text-align: center;
+    flex: 1;
+    justify-content: space-between;
+    width: 450px;
+    color: gray;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.main2 .column .column1 a:hover {
+    color: blue;
+}
+
+.main2 .column .column3 {
+    height: 500px;
+    padding: 10px;
+    float: left;
+}
+
+.main2 .column .column3 {
+    text-align: center;
+}
+
+.main2 .column .column3 p {
+    padding: 25px;
+    text-align: center;
+    flex: 1;
+    justify-content: space-between;
+    width: 370px;
+    color: gray;
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.main2 .column .column3 a:hover {
+    color: blue;
+}
+
+.main3 .background-main .title a:hover {
+    position: relative;
+    color: blue;
+    display: inline-block;
+}
+
+.main3 .background-main {
+    background-image: url(./img/paralax-domains.jpg);
+    background-repeat: no-repeat;
+    width: 1321px;
+    height: 900px;
+    padding-bottom: 0px;
+    overflow: hidden;
+}
+
+.main3 .background-main .title a:hover {
+    color: rgb(255, 0, 170);
+}
+
+
+/* main4 */
+
+.main4 a:hover {
+    color: rgb(76, 76, 241);
+}
+
+.background-container2 .center-box .column1 a {
+    padding-top: 20px;
+    padding-left: -10px;
+}
+
+.background-container2 .center-box .column1 {
+    height: 330px;
+    padding: 10px;
+    width: 80%;
+    align-items: center;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+
+.main5 {
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.main5 p {
+    margin-left: 20px;
+    margin-right: 10px;
+    text-align: justify;
+    color: rgb(27, 25, 25);
+    text-align-last: center;
+}
+
+.main6 a:hover {
+    color: rgb(131, 131, 185);
+}
+
+.main2.column.column1 a:hover {
+    color: rgb(76, 76, 241);
+}
+
+.main6 p {
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.main7 .Engagement {
+    display: inline-block;
+    display: block;
+}
+
+.main7 .Engagement {
+    margin-bottom: 75px;
+}
+
+.main7 .Engagement .DedicatedTeam {
+    margin-left: 10px;
+}
+
+.main7 .Engagement .DedicatedTeam dt {
+    text-align: center;
+    margin-left: 30px;
+    color: black;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.main7 .Engagement .DedicatedTeam a {
+    text-align: center;
+    text-decoration: none;
+}
+
+.main7 .Engagement .DedicatedTeam a:hover {
+    color: blue;
+}
+
+.main7 .Engagement .DedicatedTeam img {
+    margin-left: 140px;
+    min-height: 62px;
+}
+
+.main7 .Engagement .DedicatedTeam h2 {
+    margin-bottom: 2px;
+    border-bottom: 5px solid blue;
+}
+
+.main7 .Engagement .FixedCode {
+    margin-left: 10px;
+}
+
+.main7 .Engagement .FixedCode dt {
+    text-align: center;
+    margin-left: 30px;
+    color: black;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.main7 .Engagement .FixedCode dt a {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 2px;
+}
+
+.main7 .Engagement .FixedCode a:hover {
+    color: blue;
+}
+
+.main7 .Engagement .FixedCode img {
+    margin-left: 140px;
+    min-height: 62px;
+}
+
+.main7 .Engagement .FixedCode h2 {
+    border-bottom: 5px solid blue;
+    text-align: center;
+}
+
+.main7 .Engagement .TimeMaterial {
+    margin-left: 15px;
+}
+
+.main7 .Engagement .TimeMaterial dt {
+    text-align: center;
+    margin-left: 30px;
+    color: black;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.main7 .Engagement .TimeMaterial a {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 2px;
+}
+
+.main7 .Engagement .TimeMaterial a:hover {
+    color: blue;
+}
+
+.main7 .Engagement .TimeMaterial img {
+    margin-left: 150px;
+    min-height: 62px;
+}
+
+.main7 .Engagement .TimeMaterial h2 {
+    border-bottom: 5px solid blue;
+    text-align: center;
+}
+
+.background-list2 .background-content {
+    background-image: url(./img/AnhLogo/our-clients.jpg);
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    margin-bottom: 75px;
+    width: 1321px;
+    height: 500px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.background-list2 h1 {
+    color: blue;
+}
+
+.title-venture a:hover {
+    color: blue;
+}
+
+.title-venture p {
+    font-size: 25px;
+    text-align: justify;
+    text-align-last: center;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.slider-show .w3-content .mySlides1 {
+    padding-top: 10%;
+    text-align: center;
+    align-items: center;
+    margin-left: 555px;
+}
+
+.slider-show .show {
+    margin-top: 50px;
+    width: 1350px;
+    height: 200px;
+    background-color: rgb(235, 232, 232);
+    margin-bottom: 75px;
+}
+
+.slider-show2 .show p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    text-align: justify;
+    padding-bottom: 100px;
+    display: inline;
+    display: flex;
+}
+
+.slider-show2 .show .image {
+    display: inline;
+}
+
+.LatestJob a {
+    text-decoration: none;
+}
+
+.LatestJob a:hover {
+    color: blue;
+}
+
+.JobTable {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.JobTable {
+    text-align: justify;
+    color: rgb(27, 25, 25);
+}
+
+.JobTable p {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: gray;
+}
+
+.JobTable button {
+    background-color: #186ab4;
+    border-radius: 30px;
+    min-width: 200px;
+    height: 50px;
+    outline: 0;
+    text-decoration: none;
+    border: 0px;
+    text-align: center;
+}
+
+.NewEvent .titleNewEvent a:hover {
+    color: blue;
+}
+
+.NewTable {
+    margin-left: 10px;
+}
+
+.NewTable .NewTable1 img {
+    background-position: 50% 50%;
+    font-size: 25px;
+    margin-right: 30px;
+    width: 385px;
+    height: 300px;
+    text-align: center;
+}
+
+.NewTable .NewTable2 img {
+    background-position: 50% 50%;
+    font-size: 25px;
+    margin-right: 30px;
+    width: 360px;
+    height: 300px;
+    text-align: center;
+}
+
+.NewTable .NewTable3 img {
+    background-position: 50% 50%;
+    font-size: 25px;
+    margin-left: 20px;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+}
+
+.NewTable .NewTable1 a:hover {
+    color: blue;
+}
+
+.NewTable .NewTable2 a:hover {
+    color: blue;
+}
+
+.NewTable .NewTable3 a:hover {
+    color: blue;
+}
+
+.NewTable .NewTable1 a {
+    text-decoration: none;
+}
+
+.NewTable .NewTable2 a {
+    text-decoration: none;
+}
+
+.NewTable .NewTable3 a {
+    text-decoration: none;
+}
+
+.NewTable .NewTable1 p {
+    text-align: left;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.NewTable .NewTable2 p {
+    text-align: left;
+    text-align: justify;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.NewTable .NewTable3 p {
+    text-align: left;
+    text-align: justify;
+    margin-right: 10px;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.TitleBlog a:hover {
+    color: blue;
+}
+
+.TitleBlog a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.BlogNews .BlogNews1 img {
+    background-position: 50% 50%;
+    font-size: 25px;
+    margin-right: 30px;
+    width: 385px;
+    height: 300px;
+    text-align: center;
+}
+
+.BlogNews .BlogNews1 p {
+    text-align: left;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.BlogNews .BlogNews1 a {
+    text-decoration: none;
+}
+
+.BlogNews .BlogNews1 a:hover {
+    color: blue;
+}
+
+.BlogNews .BlogNews2 img {
+    background-position: 50% 50%;
+    font-size: 25px;
+    padding-right: 50px;
+    width: 415px;
+    height: 300px;
+    text-align: center;
+}
+
+.BlogNews .BlogNews2 p {
+    text-align: left;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.BlogNews .BlogNews2 a {
+    text-decoration: none;
+}
+
+.BlogNews .BlogNews2 a:hover {
+    color: blue;
+}
+
+.BlogNews .BlogNews3 img {
+    background-position: 50% 50%;
+    font-size: 25px;
+    padding-right: 50px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+
+.BlogNews .BlogNews3 p {
+    text-align: left;
+    text-align: justify;
+    font-size: 20px;
+    text-align: left;
+}
+
+.BlogNews .BlogNews3 a {
+    text-decoration: none;
+}
+
+.BlogNews .BlogNews3 a:hover {
+    color: blue;
+}
+
+.RequestInfo h1 {
+    text-align: center;
+    color: black;
+}
+
+.RequestInfo p {
+    color: gray;
+    text-align: center;
+    font-size: 25px;
+    text-align-last: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.ContactInfo1 .text1 {
+    box-shadow: none;
+    border-radius: 20px;
+    width: 30%;
+    height: 70px;
+    font-size: 20px;
+    margin-left: 50px;
+    padding: 12px 15px;
+    line-height: 1.5;
+}
+
+.ContactInfo1 .Email1 {
+    box-shadow: none;
+    border-radius: 20px;
+    width: 30%;
+    height: 70px;
+    font-size: 20px;
+    margin-left: 50px;
+    padding: 12px 15px;
+}
+
+.ContactInfo1 .Phone1 {
+    box-shadow: none;
+    border-radius: 20px;
+    width: 30%;
+    height: 70px;
+    font-size: 20px;
+    margin-left: 50px;
+    padding: 12px 15px;
+}
+
+.ContactInfo1 .Subject1 {
+    box-shadow: none;
+    border-radius: 20px;
+    width: 30%;
+    height: 70px;
+    font-size: 20px;
+    margin-left: 50px;
+    padding: 12px 15px;
+}
+
+.ContactInfo1 .LookingFor {
+    box-shadow: none;
+    border-radius: 20px;
+    width: 30%;
+    height: 180px;
+    font-size: 20px;
+    margin-left: 50px;
+    padding: 12px 15px;
+    padding-top: 50px;
+}
+
+.RequestButton button {
+    background-color: #186ab4;
+    border-radius: 30px;
+    min-width: 200px;
+    height: 50px;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    align-items: center;
+    margin-right: 700px;
+    margin-left: 700px;
+    float: right;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
